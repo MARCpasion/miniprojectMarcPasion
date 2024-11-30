@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #040404;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header Section */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: yellow;
+    color: #000000;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+nav .avatar {
+    width: 200px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar li a {
+    font-weight: 600;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+.navbar li a:hover {
+    color: #e3d7cf;
+}
+.home {
+    background: url('/photos/Pamulinawen-Festival.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-blend-mode: darken;
+}
+.home-text h1 {     
+    font-size: 50px;
+    color: #fcca05;
+    
+}
+
+
+.home-text h1 span {
+    color: #ff6600;
+}
+
+.home-text p {
+    font-size: 18px;
+    margin: 20px 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: #050505;
+}
+
+.featured {
+    padding: 50px 20px;
+    text-align: center;
+    background-color:#5e2c2c;
+}
+.yow{
+    color: red;
+}
+.featured h1 {
+    font-size: 30px;
+    color: yellow;
+    margin-bottom: 20px;
+}
+
+.show {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    color: #000000;
+}
+
+.show-img img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.show-img img:hover {
+    transform: scale(1.05);
+}
+
+.show h4 {
+    margin-top: 10px;
+    font-size: 15px;
+    color: yellow;
+}
+
+
+
+.footer {
+    background: #ffcc00;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+.footer .avatar{
+    width: 200px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.footer-box {
+    margin-top: 10px;
+}
+
+.footer-social li {
+    color: #333;
+    display: block;
+    margin: 5px 0;
+    font-size: 14px;
+    font-weight: 600;
+    transition: color 0.3s;
+    text-decoration: none;
+
+}
+
+.footer-container a:hover {
+    color: #ff6600;
+}
